@@ -65,7 +65,7 @@ const Pelaporan = () => {
   return (
     <AppLayout>
       <div className="max-w-md mx-auto p-6 text-center font-sans">
-        <h1 className="text-2xl font-bold mb-4">Lapor Kasus</h1>
+        <h1 className="text-2xl font-bold mb-4">Form Bukti Pendukung</h1>
         {error && <p className="text-red-500 mb-2">{error}</p>}
         {success && <p className="text-green-500 mb-2">{success}</p>}
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
